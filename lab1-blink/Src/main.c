@@ -94,8 +94,6 @@ int main(void)
   //Set blue LED off
   GPIOC->BSRR |= GPIO_BSRR_BR_7;
 
-  uint32_t debouncer = 0;
-
   while (1) 
   {
     //Delay 
